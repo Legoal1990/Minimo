@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+header{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.logo{
+    width: 30%;
+}
+nav.menu{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+nav.menu a{
+    text-decoration: none;
+    color: #535353;
+}
+
+section.slide{
+  /*  background-color:green;*/
+    margin:0 auto;
+    width:80%;
+}
+
+.texto{
+   /* background-color:red;*/
+    padding: 40px 20px;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.texto a{
+    text-decoration: none;
+    color:grey;
+}
+
+.texto h2{
+    margin:30px 0;
+}
+.texto p{
+    margin-bottom: 30px;
+}
+
+section.articulo{
+   /* background-color:green;*/
+    width:75%;
+    display:flex;
+    margin:0 auto;
+}
+
+section.articulo article{
+    padding: 20px;
+}
+
+article img{
+    /*background-color:yellow;*/
+    margin-bottom: 40px;  
+}
+
+article a{
+    text-decoration: none;
+    color:grey;
+}
+article h2{
+    margin: 20px 0px;
+}
+
+.banner{
+    background-color:#ddd9d9;
+    height:200px;
+    display:flex;  
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+
+}
+
+
+form{
+    width:100%;
+    display:flex;  
+    justify-content: center;
+    flex-direction: row;
+}
+
+.text{
+    border:0px;
+    border-bottom: 2px solid #3d3c3c;
+    background:transparent;
+    width:400px;
+    height:40px;
+}
+
+.boton{
+   /* background-color:yellow;*/
+    height:200px;
+    justify-content:center;
+    display:flex;
+    align-items:center;
+}
+
+.boton a{
+    text-decoration: none;
+    padding: 20px;
+    padding-left:40px;
+    padding-right:40px;
+    font-weight: 800;
+    font-size: 18px;
+    color:#3d3c3c;
+    background-color:white;
+    border:1px solid #535353;
+}
+
+.pie{
+    background-color:#ddd9d9;
+}
+
+footer{
+    padding:30px;
+  /*  background-color:violet;*/
+    justify-content:left;
+    width:75%;
+    display:flex;
+    margin:0 auto;
+    align-items:center;
+}
+
+footer .terminos{
+    text-decoration: none;
+    width:50%;
+    /*background-color:red;*/
+}
+
+.terminos a{
+    font-size: 15px;
+    text-decoration: none;
+    margin-right:30px;
+    color:black;
+}
+
+.redes{
+    width:50%;
+    /*background-color:green;*/
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.redes a{
+    text-decoration: none;
+    color:#3d3c3c;
+}
+
+.redes span{
+    margin-right:20px;
+}
+
+.redes a span i{
+    font-size: 20px;
+}
+
+
+
